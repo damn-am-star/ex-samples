@@ -50,7 +50,7 @@ export API_HOST="http://localhost:8888" && npm run build-custom-controls-config 
 # 6. Run Visual Editor CLI
 stackbit dev --port 4321
 
-# 7. Serve your site using Netlify Dev to get local serverless functions
-export GROQ_API_KEY='' && netlify dev --target-port 4321
+# 7. Set a valid Groq API key for the speech-to-text function, then start Netlify Dev
+export GROQ_API_KEY='your-groq-api-key' && netlify dev --target-port 4321
 
 ```
